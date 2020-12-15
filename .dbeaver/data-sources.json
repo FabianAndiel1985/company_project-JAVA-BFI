@@ -1,0 +1,54 @@
+{
+	"folders": {},
+	"connections": {
+		"2CC9E3FA-5629-89E1-80D1-D62ADB582B79-175dace5fa0-48aff00f1bba10d2": {
+			"provider": "mysql",
+			"driver": "2CC9E3FA-5629-89E1-80D1-D62ADB582B79",
+			"name": "jdb01",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "train01.bfi.wien",
+				"port": "3306",
+				"database": "jdb01",
+				"url": "jdbc:mysql://train01.bfi.wien:3306/jdb01",
+				"home": "C:\\mysql-5.7.22-winx64",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-serverTimezone@": "Europe/Vienna"
+				},
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	},
+	"drivers": {
+		"mysql": {
+			"2CC9E3FA-5629-89E1-80D1-D62ADB582B79": {
+				"provider": "mysql",
+				"id": "2CC9E3FA-5629-89E1-80D1-D62ADB582B79",
+				"name": "MySQL saf",
+				"class": "com.mysql.jdbc.Driver",
+				"url": "jdbc:mysql://train01.bfi.wien",
+				"port": "3306",
+				"custom": true,
+				"embedded": false,
+				"anonymous": false,
+				"allowsEmptyPassword": false,
+				"instantiable": true,
+				"libraries": {}
+			}
+		}
+	}
+}
